@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Simple placeholder SVG (undraw style) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350" fill="none">
+  <rect width="500" height="350" rx="12" fill="#F8FAFC" />
+  <g transform="translate(60,40)">
+    <rect x="0" y="0" width="200" height="140" rx="8" fill="#E6EEF7" />
+    <rect x="220" y="0" width="200" height="140" rx="8" fill="#F1F9F6" />
+    <rect x="0" y="160" width="420" height="40" rx="6" fill="#FFF" stroke="#E6EEF7" />
+    <text x="20" y="90" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="20">No data yet</text>
+    <text x="20" y="190" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">Waiting for job postings to appear</text>
+  </g>
+</svg>
