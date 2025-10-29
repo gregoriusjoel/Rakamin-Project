@@ -1,4 +1,4 @@
-# Hiring Management (Rakamin themed)
+# Hiring Management
 
 A Next.js + React hiring management application with user and admin interfaces, built with TailwindCSS, Firebase (Auth & Firestore/Storage), MediaPipe hand-pose camera capture, and Heroicons.
 
@@ -112,13 +112,7 @@ npm run start
 - `src/pages/admin/` — admin-only routes (check protected routes implementation in `src/api/ProtectedRoute.tsx`)
 - `src/pages/user/ModalCamera.tsx` — study pose detection flow and model loading
 
-## License
 
-This project has no license file in the repo. Add `LICENSE` to define terms for reuse.
-
----
-
-If you'd like, I can also:
 
 - Add a short development checklist to the README (install, run, common pitfalls).
 - Extract exact env variable names by scanning `src/lib/firebase.ts` and add them to the README.
