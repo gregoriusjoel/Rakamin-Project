@@ -1,15 +1,14 @@
-"use client";
+import React, { Suspense } from "react";
+import dynamic from "next/dynamic";
 
-import AppRouter from "../api/AppRouter";
-import { useSearchParams } from "next/navigation";
+const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function Home() {
-  const params = useSearchParams();
-  const initial = params?.get("initial") as
-    | "login"
-    | "register"
-    | "dashboard"
-    | null;
-
-  return <AppRouter initialPage={initial ?? undefined} />;
+  return (
+    <React.Fragment>
+      <Suspense fallback={null}>
+        <HomeClient />
+      </Suspense>
+    </React.Fragment>
+  );
 }
